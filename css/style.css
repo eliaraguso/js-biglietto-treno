@@ -11,3 +11,33 @@ body {
 }
 
 /* Common */
+.flex {
+    display: flex;
+}
+
+
+
+/* Body */
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to right, #0ea400, #00bc7b, #00cec6, #62dbf2, #bfe6ff, #cbdfff, #dcd7fe, #eecef2, #f3a3d4, #f874a3, #f24062, #d80013);
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.biglietto {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 50%;
+}
